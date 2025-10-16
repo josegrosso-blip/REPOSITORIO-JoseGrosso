@@ -1,0 +1,350 @@
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .navbar {
+    padding: 10px 0;
+  }
+  section {
+    padding: 10px 0;
+  }
+  h1, h2, h3 {
+    font-size: 18px;
+    padding: 5px 0;
+  }
+  .texto, .TextoAlbums, .ComienzoAlejo, .QuienEsYSYA, .EMBLEMAYSYA {
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+  #SeccionInfo {
+    width: 100%;
+    padding: 10px;
+  }
+  .carousel-inner {
+    width: 100%;
+    height: auto;
+  }
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  #FinPagina {
+    padding: 10px 0;
+    font-size: 14px;
+    min-height: 60px;
+  }
+  .TextoFinal {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+  #Gracias {
+    padding: 10px 0;
+  }
+  .col-md-6, .col-md-5, .col-md-9 {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+.navbar {
+  background-color: #30a54d;  
+}
+
+section {
+  background-color: #30a54d;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.carousel-inner {
+  width: 70%;
+  height: 500px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.carousel-item img {
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+}
+
+#SeccionInfo {
+  text-align: center;
+  width: 600px;
+  margin: auto;
+  background-color: #30a54d;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #30a54d;
+}
+
+#ComienzoAlejo {
+  min-height: 70vh;
+  text-align: left !important;
+  background-color: #30a54d;
+  padding: 0 20px;
+}
+
+#ComienzoAlejo .col-md-6 {
+  text-align: left !important;
+}
+ 
+#carouselExampleAutoplayingComienzosAlejoYSYA .carousel-inner {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  margin: auto;
+}
+
+
+.col-md-5 {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel {
+  max-width: 100%;
+  text-align: center;
+}
+/* Carrusel Comienzos Alejo YSYA CENTRADO */
+
+
+
+
+
+#ComienzoAlejo h1,
+#ComienzoAlejo h2,
+#ComienzoAlejo p {
+  text-align: left;
+}
+
+.carouselExampleAlbums .carousel-inner {
+  width: 70%;
+  height: 500px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.carouselExampleYSYMO .carousel-inner {
+  width: 70%;
+  height: 500px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.link {
+  color:  white;
+  text-decoration: underline black;
+}
+
+.link2 {
+  color: white;
+  text-decoration: underline black;
+}
+
+.link3 {
+  color: white;
+  text-decoration: underline black;
+}
+
+.link4 {
+  color: white;
+  text-decoration: underline black;
+}
+
+.texto {
+  text-align: justify;
+  text-justify: inter-word;
+  background-color: #30a54d;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+
+.TextoAlbums {
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+ text-decoration: underline none;
+ text-align: left !important ;
+}
+
+.ComienzoAlejo {
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline none;
+}
+
+.QuienEsYSYA {
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline none;
+  text-align: left !important ;
+}
+
+.EMBLEMAYSYA {
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline none;
+} 
+
+
+#FinPagina {
+  margin-top: auto;  
+  height: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+  width: 100%;
+}
+.TextoFinal {
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline white; 
+}
+ 
+.linkDuki {
+  color: rgb(0, 0, 0);
+  text-decoration: underline white
+}
+
+.linkPaulo {
+  color: rgb(0, 0, 0);
+  text-decoration: underline white
+}
+
+.linkLit{
+  color: rgb(0, 0, 0);
+  text-decoration: underline white
+}
+
+.LinkQuintoEscalon {
+  color: rgb(0, 0, 0);
+  text-decoration: underline white
+}
+
+.linkYSYA {
+  color: rgb(0, 0, 0);
+  text-decoration: underline white
+}
+
+.LinkBhavi {
+  color: rgb(0, 0, 0);
+  text-decoration: underline white
+}
+
+.TuDuoFavoritoLink {
+  color: rgb(0, 0, 0);
+  text-decoration: underline white
+}
+
+.linkYSYSMO {
+  color: rgb(0, 0, 0);
+  text-decoration: underline white
+}
+
+.linkNoticia {
+  color: rgb(0, 0, 0);
+  text-decoration: underline white
+}
+
+.linkEmail {
+  color: rgb(0, 0, 0);
+  text-decoration: underline white
+}
+
+#AlbumesYSYA {
+  text-align: left !important; 
+}
+
+#AlbumesYSYA .row {
+  justify-content: left; 
+}
+
+#AlbumesYSYA .card {
+  margin: auto; 
+}
+
+section {
+  background-color: #30a54d;
+  margin: 0;
+  padding: 20px 0;
+}
+
+
+#FinPagina {
+  background-color: black !important;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0;
+  width: 100%;
+  min-height: 100px;
+  margin-top: auto;
+  } 
+
+  
+.TextoFinal {
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  text-decoration-color: white;
+} 
+
+#Gracias {
+  background-color: #30a54d;
+  text-align: left !important ;
+  padding: 20px 0;
+}
+
+
+@media (max-width: 768px) {
+  .carousel-inner {
+    width: 100%;
+    height: auto;
+  }
+
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  #SeccionInfo {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .texto {
+    font-size: 18px;
+  }
+
+  .TextoAlbums, .ComienzoAlejo, .QuienEsYSYA, .EMBLEMAYSYA {
+    font-size: 18px;
+  }
+  
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin: 50px 0 0 0;
+  width: 100%;
+  min-height: 100px;
+  margin-top: auto;
+}
+
